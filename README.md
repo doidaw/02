@@ -1,9 +1,9 @@
-# 🤖 AI-based Affection Scoring Chatbot
+# 👩‍❤️‍👨 AI-based Affection Scoring Chatbot
 
 **Generative AI Development Project, Naver HyperCLOVA x LangChain Korea**  
 *5th Place - July 2024*
 
-## Overview
+## 🤖 Overview
 
 Welcome to the repository of the AI-based Affection Scoring Chatbot. Developed by the KUBIG team from Korea University, consisting of Bae Ji-won, Sim Seung-hyun, Jeong Ha-yeon, and Jeong Hae-won. This project focuses on evaluating real-time affection scores in romantic and daily conversations. Utilizing HyperCLOVA and LangChain, we have developed a chatbot that specializes in analyzing Korean sentiment expressions.
 
@@ -68,12 +68,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-# 🤖 AI 기반 호감도 평가 챗봇
+# 👩‍❤️‍👨 AI 기반 호감도 평가 챗봇
 
 **Generative AI Development Project, Naver HyperCLOVA x LangChain Korea**  
 *5위 - 2024년 7월*
 
-## 개요
+## 🤖 개요
 
 AI 기반 호감도 평가 챗봇 리포지토리에 오신 것을 환영합니다. 이 프로젝트는 고려대학교 데이터 사이언스 & 인공지능 학회 KUBIG 팀에 의해 개발되었으며, 팀원은 배지원, 심승현, 정하연, 정해원입니다. 이 챗봇은 연애 및 일상 대화에서 실시간으로 호감도를 평가하는 기능을 제공합니다. HyperCLOVA와 LangChain을 활용하여 한국어 감정 표현에 초점을 맞춘 챗봇을 개발하였습니다.
 
