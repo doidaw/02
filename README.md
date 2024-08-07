@@ -9,7 +9,7 @@ Welcome to the repository of the AI-based Affection Scoring Chatbot. Developed b
 
 ---
 
-## Features
+## Features 
 
 ### 💬 Real-time Affection Scoring
 
