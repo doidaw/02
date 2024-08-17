@@ -19,8 +19,11 @@ Welcome to the repository of the AI-based Affection Scoring Chatbot. Developed b
 
 ### 📊 Data and Model
 
-- **Model**: Fine-tuned KcELECTRA model with the KOTE dataset
-- **Dataset**: 50,000 comments labeled with various emotions
+- **Model**: Fine-tuned KcELECTRA model with the KOTE dataset to label emotions, with each label assigned an affection score.
+- **Scoring Method**:
+  1. **Affection Score per Turn**: The affection metric is calculated as the product of the probability of each emotion label and the weight of the emotion score.
+  2. **Contextual Understanding**: The overall affection score considers the entire conversation context by summing the product of emotion label probabilities and weights, with more recent turns receiving greater weight (current turn number/total conversation turns).
+- **KoBERT Word Embeddings**: Used to calculate the cosine similarity between emotion labels like ‘Excitement’, ‘Interest’, ‘Affection’, and ‘Love’ to derive scores.
 
 ### 🌐 Web Application
 
@@ -89,8 +92,11 @@ AI 기반 호감도 평가 챗봇 리포지토리에 오신 것을 환영합니�
 
 ### 📊 데이터 및 모델
 
-- **모델**: KcELECTRA 모델을 KOTE 데이터셋으로 파인 튜닝
-- **데이터셋**: 다양한 감정 레이블이 포함된 50,000개의 댓글 데이터
+- **모델**: KcELECTRA 모델을 KOTE 데이터셋으로 파인 튜닝하여 감정 레이블을 달고, 각 감정 레이블마다 설렘 점수를 부여함.
+- **점수 산출 방식**:
+  1. **각 대화 턴마다 호감도 점수 산출**: 호감도 메트릭은 AI의 답변 문장에 대한 감정 레이블 각각의 확률과 감정 점수별 가중치를 곱하여 계산됨.
+  2. **맥락을 고려한 대화 전반적 분위기 파악**: AI의 답변 문장에 대한 감정 레이블의 확률과 감정 점수별 가중치를 모두 더한 후, 최신 턴에 더 큰 가중치를 부여하여 전체 대화의 분위기를 종합적으로 파악함.
+- **KoBERT 워드 임베딩**: ‘설렘’, ‘관심’, ‘호감’, ‘사랑’과 같은 감정 라벨 간의 코사인 유사도 점수의 평균을 활용하여 점수화함.
 
 ### 🌐 웹 애플리케이션
 
